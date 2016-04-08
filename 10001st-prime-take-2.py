@@ -17,7 +17,7 @@ def find_prime():
     Return 10,001st prime.
     '''
     i = 3
-    counter = 1
+    counter = 1 # This includes 2 as the first prime
     while counter < 10001:
         if check_prime(i):
             counter += 1
